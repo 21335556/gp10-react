@@ -9,7 +9,7 @@ export class Ad extends Component {
       <div>
         {this.props.title}
         {this.state.name}
-        <button onClick={() => this.setState({name:'xiaolei'})}></button>
+        <button onClick={() => this.setState({name:'xiaolei'})}>click</button>
       </div>
     )
   }

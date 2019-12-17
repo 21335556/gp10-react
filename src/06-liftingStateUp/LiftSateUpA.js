@@ -8,19 +8,10 @@ class LiftSateUpA extends Component {
     }
   }
   render() {
-    let { onMessage } = this.props
     return (
-      <button onClick={e => onMessage(this.state.message ,e)}>send</button>
-      )
-    // return (
-    //   <button onClick={onMessage.bind(this, this.state.message)}>send</button>
-    // )
-    }
-    
-  //   handleClick() {
-  //      let { onMessage } = this.props
-  //      onMessage(this.state.message)
-  //  }
- }
+      <button>click</button>
+    )
+  }
+}
 
-export default  LiftSateUpA
+export default LiftSateUpA

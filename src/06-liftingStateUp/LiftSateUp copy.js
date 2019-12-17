@@ -9,22 +9,21 @@ class LiftSateUp extends Component {
     this.state = {
       title: 'opps'
     }
-    this.ComponentA = React.createRef()
   }
   render() {
     return (
       <>
-        <LiftSateUpA ref={this.ComponentA}></LiftSateUpA>
+        <LiftSateUpA onMessage={this.handleMessage.bind(this)}></LiftSateUpA>
         <LiftSateUpB title={this.state.title}></LiftSateUpB>
       </>
     )
-  }
+   }
 
-  componentDidMount() {
-    this.setState({
-      title: this.ComponentA.current.state.message
-    })
-  }
-}
+   handleMessage(msg, e) {
+     this.setState({
+       title: msg
+     })
+   }
+ }
 
-export default LiftSateUp
+export default  LiftSateUp

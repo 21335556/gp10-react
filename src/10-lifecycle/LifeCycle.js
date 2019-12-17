@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
 // import Child from './Child'
-// import GetDerivedStateFromProps from './GetDerivedStateFromProps'
-// import GetSnapshotBeforeUpdate from './GetSnapshotBeforeUpdate'
+import GetDerivedStateFromProps from './GetDerivedStateFromProps'
+import GetSnapshotBeforeUpdate from './GetSnapshotBeforeUpdate'
 import Test from './Test'
 
 class LifeCycle extends Component {
@@ -23,10 +23,10 @@ class LifeCycle extends Component {
     // console.log('render');
     return (
       <>
-        {/* <GetDerivedStateFromProps title={this.state.title}></GetDerivedStateFromProps>
+        <GetDerivedStateFromProps title={this.state.title}></GetDerivedStateFromProps>
         <div><button onClick={this.handleClick}>click</button></div>
         
-        <GetSnapshotBeforeUpdate title={this.state.title}></GetSnapshotBeforeUpdate> */}
+        <GetSnapshotBeforeUpdate title={this.state.title}></GetSnapshotBeforeUpdate>
         <Test></Test>
       </>
     )
