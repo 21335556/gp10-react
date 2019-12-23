@@ -1,0 +1,27 @@
+react-transition-group
+transition
+CSSTransition
+SwitchTransition
+TransitionGroup
+
+
+unmountOnExit  完成后会卸载这个元素
+
+react-router-dom
+
+map
+equals
+set
+merge  concat
+seq
+fromJS
+
+针对嵌套数据的处理方法，mergeDeep/ getIn/ setIn/ updateIn是最常用的方法。
+
+set 和 list 的区别
+list 以特定次序存储元素  去出去的顺序可能和放入顺序不同
+set  不能含有重复的元素
+Set：检索元素效率低下，删除和插入效率高，插入和删除不会引起元素位置改变。 
+List：和数组类似，List可以动态增长，查找元素效率高，插入删除元素效率低，因为会引起其他元素位置改变。
+
+

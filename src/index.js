@@ -8,13 +8,12 @@ import ReactDOM from 'react-dom'
 // import { HomeContainer as Home } from './13-redux/home/'
 // import { SearchContainer as Search } from './13-redux/search'
 
-import { BrowserRouter as Router } from 'react-router-dom'
+// import { BrowserRouter as Router } from 'react-router-dom'
 
-import ReactRouter from './14-router/ReactRouter'
+// import ReactRouter from './14-router/ReactRouter'
+import Animate from './16-transition/Animated'
 
 ReactDOM.render(
-  <Router>
-    <ReactRouter></ReactRouter>
-  </Router>,
+  <Animate></Animate>,
   document.querySelector('#root')
 )
